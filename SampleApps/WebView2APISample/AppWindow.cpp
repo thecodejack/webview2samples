@@ -35,6 +35,7 @@
 #include "ScenarioCustomDownloadExperience.h"
 #include "ScenarioCustomScheme.h"
 #include "ScenarioCustomSchemeNavigate.h"
+#include "ScenarioEmptyWorkingSet.h"
 #include "ScenarioDOMContentLoaded.h"
 #include "ScenarioDragDrop.h"
 #include "ScenarioExtensionsManagement.h"
@@ -580,6 +581,11 @@ bool AppWindow::ExecuteWebViewCommands(WPARAM wParam, LPARAM lParam)
     case IDM_SCENARIO_CUSTOM_SCHEME_NAVIGATE:
     {
         NewComponent<ScenarioCustomSchemeNavigate>(this);
+        return true;
+    }
+    case IDM_SCENARIO_TRIGGER_EWS:
+    {
+        NewComponent<ScenarioEmptyWorkingSet>(this);
         return true;
     }
     case IDM_SCENARIO_SHARED_WORKER:

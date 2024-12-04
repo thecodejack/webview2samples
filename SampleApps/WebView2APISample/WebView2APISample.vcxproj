@@ -236,6 +236,7 @@
     <ClInclude Include="ScenarioCustomSchemeNavigate.h" />
     <ClInclude Include="ScenarioDOMContentLoaded.h" />
     <ClInclude Include="ScenarioDragDrop.h" />
+    <ClInclude Include="ScenarioEmptyWorkingSet.h" />
     <ClInclude Include="ScenarioExtensionsManagement.h" />
     <ClInclude Include="ScenarioFileSystemHandleShare.h" />
     <ClInclude Include="ScenarioFileTypePolicy.h" />
@@ -289,6 +290,7 @@
     <ClCompile Include="ScenarioCustomSchemeNavigate.cpp" />
     <ClCompile Include="ScenarioDOMContentLoaded.cpp" />
     <ClCompile Include="ScenarioDragDrop.cpp" />
+    <ClCompile Include="ScenarioEmptyWorkingSet.cpp" />
     <ClCompile Include="ScenarioExtensionsManagement.cpp" />
     <ClCompile Include="ScenarioFileSystemHandleShare.cpp" />
     <ClCompile Include="ScenarioFileTypePolicy.cpp" />

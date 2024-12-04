@@ -262,6 +262,7 @@ BEGIN
         END
         MENUITEM "Custom scheme WebResourceRequested CORS", IDM_SCENARIO_CUSTOM_SCHEME
         MENUITEM "Navigate to custom scheme via WebResourceRequested",   IDM_SCENARIO_CUSTOM_SCHEME_NAVIGATE
+        MENUITEM "Trigger EmptyWorkingset",   IDM_SCENARIO_TRIGGER_EWS
         MENUITEM "Shared worker WebResourceRequested",   IDM_SCENARIO_SHARED_WORKER
         POPUP "Custom Download Experience"
         BEGIN
